@@ -120,6 +120,7 @@ h2 span { color: var(--gold); }
 .team-card { padding: 28px; border: 1px solid #dfd0bc; }
 .team-card b { color: #a35b13; font-size: .8rem; }
 .team-card h3 { font-family: "Playfair Display"; margin: 8px 0 2px; }
+.team-card h4 { margin: 0 0 6px; color: #a35b13; font-size: .85rem; font-weight: 600;}
 .team-card p { color: #79695d; font-size: .85rem; }
 
 .cta { padding: 80px 8%; display: flex; justify-content: space-between; align-items: center; gap: 30px; background: linear-gradient(110deg, #8e450e, #d28720); }

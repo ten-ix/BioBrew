@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BioBrew — Rice Beer. Own the Moment. A student biotechnology fermentation project.">
+  <title>BioBrew | Rice Beer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#home" aria-label="BioBrew home">
+      <span class="brand-mark">B</span>
+      <span>Bio<span>Brew</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#science">The Science</a>
+      <a href="#process">Process</a>
+      <a href="#team">Team</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <p class="eyebrow">TRADITIONAL FERMENTATION • MODERN BIOTECHNOLOGY</p>
+        <h1>RICE<br><span>BEER</span></h1>
+        <p class="tagline">Own the Moment.</p>
+        <p class="intro">
+          A student biotechnology project exploring how rice, enzymes and yeast
+          come together through controlled fermentation.
+        </p>
+        <div class="hero-actions">
+          <a href="#science" class="btn btn-primary">Explore the Science</a>
+          <a href="#process" class="btn btn-secondary">View Process</a>
+        </div>
+      </div>
+
+      <div class="rice-orbit" aria-hidden="true">
+        <div class="glass">
+          <div class="foam"></div>
+          <div class="liquid">
+            <div class="bubble b1"></div>
+            <div class="bubble b2"></div>
+            <div class="bubble b3"></div>
+            <div class="bubble b4"></div>
+          </div>
+        </div>
+        <div class="orbit-ring"></div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">THE BRAND</p>
+        <h2>Meet <span>BioBrew.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>
+            BioBrew is a student-created concept that connects traditional
+            fermented beverages with fundamental biotechnology. Our focus is
+            the fermentation of a rice-based substrate using yeast.
+          </p>
+          <p>
+            The project demonstrates the roles of starch conversion, microbial
+            metabolism, hygiene and fermentation monitoring in product development.
+          </p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">01</span>
+          <span class="stat-label">PRODUCT</span>
+          <strong>Rice Beer</strong>
+          <small>Fermented rice beverage prototype</small>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">06</span>
+          <span class="stat-label">TEAM</span>
+          <strong>BioBrew</strong>
+          <small>Student biotechnology group</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section science" id="science">
+      <div class="section-heading centered">
+        <p class="eyebrow">THE SCIENCE</p>
+        <h2>From <span>starch</span> to fermentation.</h2>
+        <p>
+          Rice is rich in starch. Enzymatic breakdown makes simpler sugars
+          available for yeast metabolism.
+        </p>
+      </div>
+
+      <div class="science-flow">
+        <article class="science-card">
+          <div class="icon">🌾</div>
+          <span>01</span>
+          <h3>Rice</h3>
+          <p>Cooked rice provides the carbohydrate-rich substrate.</p>
+        </article>
+
+        <div class="flow-arrow">→</div>
+
+        <article class="science-card">
+          <div class="icon">🧬</div>
+          <span>02</span>
+          <h3>Conversion</h3>
+          <p>Amylolytic enzymes help convert starch into fermentable sugars.</p>
+        </article>
+
+        <div class="flow-arrow">→</div>
+
+        <article class="science-card">
+          <div class="icon">🧫</div>
+          <span>03</span>
+          <h3>Yeast</h3>
+          <p><em>Saccharomyces cerevisiae</em> metabolizes available sugars.</p>
+        </article>
+
+        <div class="flow-arrow">→</div>
+
+        <article class="science-card">
+          <div class="icon">✨</div>
+          <span>04</span>
+          <h3>Fermentation</h3>
+          <p>Fermentation produces ethanol and carbon dioxide as major products.</p>
+        </article>
+      </div>
+
+      <div class="equation">
+        C₆H₁₂O₆ <span>→</span> 2 C₂H₅OH + 2 CO₂
+      </div>
+    </section>
+
+    <section class="section process" id="process">
+      <div class="section-heading">
+        <p class="eyebrow">OUR WORKFLOW</p>
+        <h2>The <span>fermentation journey.</span></h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>01</span><div><h3>Prepare</h3><p>Select, wash and cook the rice.</p></div>
+        </div>
+        <div class="timeline-item">
+          <span>02</span><div><h3>Cool</h3><p>Allow the cooked rice to cool before inoculation.</p></div>
+        </div>
+        <div class="timeline-item">
+          <span>03</span><div><h3>Inoculate</h3><p>Add the selected enzyme/malted material and yeast under hygienic conditions.</p></div>
+        </div>
+        <div class="timeline-item">
+          <span>04</span><div><h3>Ferment</h3><p>Maintain the fermentation setup and monitor changes in aroma and texture.</p></div>
+        </div>
+        <div class="timeline-item">
+          <span>05</span><div><h3>Observe</h3><p>Document visible and sensory indicators of fermentation.</p></div>
+        </div>
+        <div class="timeline-item">
+          <span>06</span><div><h3>Present</h3><p>Evaluate the prototype from a biotechnology project perspective.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team" id="team">
+      <div class="section-heading centered">
+        <p class="eyebrow">THE PEOPLE</p>
+        <h2>Built by <span>BioBrew.</span></h2>
+        <p>Six roles. One fermentation project.</p>
+      </div>
+
+      <div class="team-grid">
+        <div class="team-card"><b>01</b><h3>Team Lead</h3><p>Coordination & planning</p></div>
+        <div class="team-card"><b>02</b><h3>Raw Materials</h3><p>Preparation & sourcing</p></div>
+        <div class="team-card"><b>03</b><h3>Fermentation</h3><p>Yeast & process monitoring</p></div>
+        <div class="team-card"><b>04</b><h3>Hygiene</h3><p>Safety & contamination control</p></div>
+        <div class="team-card"><b>05</b><h3>Documentation</h3><p>Observations & records</p></div>
+        <div class="team-card"><b>06</b><h3>Presentation</h3><p>Packaging & display</p></div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div>
+        <p class="eyebrow">BIOBREW</p>
+        <h2>Own the Moment.</h2>
+        <p>Traditional fermentation. Modern biotechnology.</p>
+      </div>
+      <a class="btn btn-light" href="#home">Back to Top ↑</a>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>BioBrew</strong>
+      <span>Rice Beer • Biotechnology Project</span>
+    </div>
+    <p>Academic prototype — not for commercial sale.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
